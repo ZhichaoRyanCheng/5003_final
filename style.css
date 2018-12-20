@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#5a5858;
+
+}
+.btn {
+    border: none;
+background-image: url('Earth.jpg');
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+p {
+  font-size: 30px;
+}
+/* On mouse-over */
+.a:hover {background:#1cccc6;
+}
+
+.success {color: purple;}
+
+.a{
+   font-size: 30px;
+
+}
+#particles-js{
+  background: url("orbitals.jpg");
+  height:100%;
+  width:100%;
+}
+
+#Web Page{
+
+  opacity:1;
+  padding:2em;
+  border: 2px;
+  position: absolute;
+
+}

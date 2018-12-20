@@ -1,0 +1,70 @@
+{
+  "particles":{
+    "number":{
+      "value":80
+    },
+    "color":{
+      "value":"#fff"
+    },
+    "shape":{
+      "type":"star",
+      "stroke":{
+        "width":1,
+        "color":"blue"
+      },
+      "image":{
+        "src":"orbitals.jpg"
+      }
+    },
+    "opacity":{
+      "value":0.5,
+      "random":true,
+      "anim":{
+        "enable":false,
+        "speed":1
+      }
+    },
+    "size":{
+      "value": 3,
+      "random":false,
+      "anim":{
+        "enable": false,
+        "speed":30
+      }
+    },
+    "line_linked":{
+      "enable": true,
+      "distance": 200,
+      "color":"#fff",
+      "width":1
+    },
+    "move":{
+      "enable":true,
+      "speed":4,
+      "direction":"none",
+      "straight":false
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"repulse"
+      },
+      "onclick":{
+        "enable": true,
+        "mode":"push"
+      }
+    },
+    "modes":{
+      "repulse":{
+        "distance":150,
+        "duration":3
+      },
+      "bubble":{
+        "distance":200,
+        "size":10
+      }
+    }
+  }
+}
