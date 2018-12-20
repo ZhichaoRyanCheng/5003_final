@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> My Web Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style-webresume.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Source+Code+Pro" rel="stylesheet">
+  <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css” integrity=“sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO” crossorigin=“anonymous”>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#Home" style="border:none" >Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Contact"  style="border:none">Contact <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Link"style="border:none">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#Education">Education</a>
+            <a class="dropdown-item" href="#Relevant Coursework">Relevant Coursework</a>
+
+
+            <a class="dropdown-item" href="#Work Experience">Work Experience</a>
+            <a class="dropdown-item" href="#Skills and Achievements">Skills and Achievements</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotrom text-center">
+    <div class="container">
+      <h1 style= "color: rgb(13, 196, 199)";>Welcome to My Web Page</h1>
+      <div id="myProfile"> Effective team player and self-motivated professional with 7 years managing experience in the Media industry. Specializes in maximizing company’s profits and branding needs through media outreach and efficient control.Up
+        to date with social, cultural direction in business between East and West.Knowledgable of both local and national advertising in print and digital publication. Understanding of visual arts, photography and media psychology. </div>
+      <br>
+      <br>
+      <br>
+      <button id="btn" onclick="myFunction()">Read More</button>
+    </div>
+  </div>
+
+
+  <div class="sticker">
+    Hello,Nice to meet you!
+  </div>
+
+  <style>
+    .bg-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 0, 0);
+      opacity: 1;
+      z-index: 2;
+    }
+
+    video {
+      position: relative;
+      z-index: 1;
+      ;
+    }
+  </style>
+
+  <div class="fullscreen-bg">
+    <div class="bg-cover"></div>
+
+    <video loop muted autoplay poster="Bubble2.webm" class="fullscreen-bg__video">
+         <source src="Bubble2.webm" type="video/webm">
+         <source src="Bubble2.webm" type="video/webm">
+         <source src="Bubble2.webm" type="video/webm">
+     </video>
+  </div>
+
+  <img src= "images/IMG_3116.jpg"width="200" height="auto"/>
+  <div class= "name"> Ryan Cheng </div>
+  <div class="column1">
+
+    <br>
+    <div class="container">
+      <div class="box">
+        <span  class='title1' style= "color: lightblue;">Education</span>
+
+
+        <li>Columbia University,New York <br>
+Master of Arts in Technology and Media </li>
+
+        <li>The New School University, New York <br>
+            Bachelor of Science </li>
+        <li>NYU Tisch School of Arts, New York <br>
+              Film and Media Study
+            </li>
+        <li>Nanyang Acedemy of Fine Arts, Singapore <br>
+            Diploma in Theatre Management </li>
+          </ul>
+          <br>
+
+          <span  class='title1' style= "color: lightblue;">Relevant Coursework</span>
+
+          <ul>
+            <li>Media, Message & the Mind,</li>
+            <li> All About Advertising,</li>
+            <li>Big Idea Campaigns,</li>
+            <li>Social & Cultural Issues with Technology,</li>
+            <li>Entrepreneurership,</li>
+            <li>Business Management,</li>
+            <li> Branding&Marketing,</li>
+            <li> Media Psychology</li>
+            <li> Theotry and Programming of Interactive Media</li>
+      </div>
+
+      <div>
+      </div>
+      <div class="box box2">
+        <a name="Work Experience"></a>
+        <a name="Education"></a>
+        <a name="Skills and Achievements"></a>
+        <a name="Relevant Coursework"></a>
+
+
+
+
+        <span class='title1' style= "color: lightblue;">Work Experience</span>
+
+        <div>
+          <span  class='title2' style= "color: lightblue;">MEDIA MARKETING ADVISER, PARSONS SCHOOL OF DESIGN, NEW YORK 2016—PRESENT</span>
+
+          <ul>
+            <li>Collaborate and create new branding and marketing ideas with designers</li>
+            <li>Enhance designers’ final presentations and advise them to reinvigorate relationships with existing clients and
+              generate consistent deals</li>
+            <li>Evaluate designers’ business innovation process and establish their approaches through media platform</li>
+            <li>Developed a short and long term business plan for the brand that addresses product holes, new niche
+              markets, distribution strategy and profit estimates</li>
+
+        </div>
+
+        <div>
+          <span  class='title2' style= "color: lightblue;">MEDIA PRODUCTION EXECUTIVE, MEDIACORP GROUP, SINGAPORE 2013—2014</span>
+          <ul>
+            <li>Identified target audiences and analyzed their characteristics, behavior and media habits</li>
+            <li>Drew up shooting schedule and estimated costs</li>
+            <li>Met with producer to examine scripts and program ideas</li>
+            <li>Hired and negotiated rates for crews and contractors</li>
+            <li> Negotiated costs and approved equipment, props, sets, and locales</li>
+            <li> Ensured production ran to schedule, reporting progress to producer </li>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="box">
+
+        <span  class='title1' style= "color: lightblue;">Skills and Achievements</span>
+        <ul>
+          <li>Fluent in English, Chinese, French</li>
+          <li> PowerPoint, Word and Excel, Google applications, JavaScript, PS, Autoclerk </li>
+
+          <li>Former business owner Greenland’s Organics Singapore 2003-2007
+          <li>Outstanding Performance Award,Mediacorp Singapore 2013</li>
+          <li>Singapore National Day Parade by Dr Ng Eng Hen—Minister of Defense of Singapore
+            2012 |2013</li>
+        </ul>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <br>
+
+  <div class="intro">
+    <a name="Contact"></a>
+    <p id="basic-info">
+
+      <i class="fas fa-mobile-alt fa-lg fa-fwv spin" > </i><a href="347 555-1219">347 522-1219</a>
+      <i class="far fa-envelope fa-lg fa-fw spin" ></i><a href="mailto:zrc2106@tc.columbia.edu" target="_blank">zrc2106@tc.columbia.edu</a>
+      <i class="fab fa-linkedin-in fa-lg fa-fw spin" ></i><a href="#" target="_blank">LinkedIn Profile</a>
+      <br/>
+      <br>Address: 525 Park Ave Apt 8B, New York, NY 10065</p>
+  </div>
+  <footer>
+    <p>Site Design by Ryan Cheng &copy; 2018</p>
+
+
+
+
+  </footer>
+  </div>
+
+
+
+  <script>
+    window.onscroll = function() {
+      var position = window.pageYOffset;
+      var opacity = 1 - (position / 1000);
+      if (opacity < 0) {
+        opacity = 0;
+      };
+
+      var bg = document.querySelector('.bg-cover');
+      bg.style.opacity = opacity;
+
+    }
+  </script>
+  <script src="main.js"> </script>
+
+</body>
+
+
+
+</html>

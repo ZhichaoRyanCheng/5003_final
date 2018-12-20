@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: 14px Helvetica, Sans-Serif;
+  line-height: 24px;
+  margin: 130px;
+  margin-top: 10px;
+  background-image: url("Bubble2.webm");
+  background-image: cover;
+}
+
+img {
+  margin-left: 100px;
+  border-radius: 35px;
+}
+
+#btn {
+  background: transparent;
+  color: darkgrey;
+  padding: 5px 5px;
+  transition: height 2s ease 0s;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 40px;
+
+}
+
+#myProfile {
+  width: 100%;
+  padding: 20px;
+  height: 10px;
+  text-align: center;
+  background-color: ;
+  margin-top: : 10px;
+  transition: height 2s;
+  overflow: hidden;
+  color: rgb(13, 196, 199);
+}
+
+.clear {
+  clear: both;
+}
+
+.sticker {
+  padding: 15px 15px;
+  width: 150px;
+  /* width: 100px;
+  height: 45px; */
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: green;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  height: auto;
+}
+
+.container>.box {
+  width: 250px;
+  margin-right: 10px;
+}
+
+#page-wrap {
+  width: 1000px;
+  margin: 40px auto 60px;
+  /* create space around content */
+}
+
+#pic {
+  float: right;
+  margin: -30px 0 0 0;
+}
+
+.title1 {
+  color: lightblue;
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.name {
+  margin-left: 110px;
+  font-size: 30px;
+  color:lightblue;
+}
+
+.title2 {
+  color: rgb(218, 70, 21);
+   font-size: 14px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+/*allows for alternative style definition*/
+h2 span {
+  color: rgb(34, 34, 90);
+  position: absolute;
+  /*break normal position flow of the stack*/
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 16px 0;
+  color: rgb(13, 196, 199);
+}
+
+a {
+  color: rgb(218, 70, 21);
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 1px dotted #999;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  color: yellow;
+}
+
+ul {
+  margin: 0 0 32px 17px;
+}
+
+li {
+  /* color: rgb(248, 210, 55); */
+  color: rgb(13, 196, 199);
+}
+
+#objective {
+  width: 500px;
+  float: left;
+}
+
+#objective p {
+  font-family: arial;
+  /* font-style: italic; */
+  color: rgb(39, 191, 187);
+}
+
+dt {
+  color: rgb(29, 165, 161);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  /*allow text to right align*/
+  padding: 0 26px 0 0;
+  width: 150px;
+  /*narrow width that doens't take up the entire page*/
+  float: left;
+  /*allow additional conent to go to the right*/
+  height: 100px;
+  border-right: 1px solid #999;
+}
+
+dd {
+  color: rgb(248, 210, 55);
+  width: 600px;
+  /*narrow width that doens't take up the entire page*/
+  float: right;
+  /*allow additional conent to go to the left*/
+}
+
+/* create empty clearing between subsections */
+dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}
+
+@keyframes example {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.spin {
+  /*     animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+  animation: example 2s infinite;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#navbar li {
+  display: inline;
+}
+
+.d-block {
+  width: 75%;
+  height: 45vw;
+  object-fit: cover;
+}
+}
+
+.cover {
+  opacity: 1;
+  transition: opacity 2s;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: Black;
+}
+}
